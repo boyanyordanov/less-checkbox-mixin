@@ -1,3 +1,18 @@
+/*
+    File: demo.less
+    Description: Stylesheet for the demo page.
+    Author: Boyan `netoholic` Yordanov
+    Date: 07.02.2013    
+*/
+
+// Includes
+
+@import "lch-checkbox.less";
+
+/* 
+    Generic styles
+*/
+
 body{
     background: #efefef;
     font-family: Helvetica, Arial, sans-serif;
@@ -57,6 +72,25 @@ body{
     &:first-child{
         margin-top: 0;
     }
+}
+
+.demo-checkbox{
+    //    @background - Checkbox background
+    //    @color - Text color
+    //    @fontSize - Font size
+    //    @width - Width of the checkbox
+    //    @height - Height of the checkbox
+    //    @lineHeight - Line height for the checkbox
+    //    @textAlign - Text align for the text 
+    //    @display - Display type
+    //    @border - Border style/color/size
+    //    @borderRadius - Border radius
+    //    @hoverColor - Text color for hover state
+    //    @hoverBackground - Background for hover state
+    //    @activeColor - Text colro for active state
+    //    @activeBackground - Background for active state
+
+    .lch-checkbox(#fff, #333, 13px, 50px, 20px, 20px, center, block, 1px solid #ccc, 5px, #666, #efefef, #fff, #27b4ff);
 }
 /*
     Footer
