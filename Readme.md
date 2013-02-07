@@ -15,4 +15,4 @@ This is a LESS mixin so you have to add it to your file or include the file usin
 
 ##The future
 
-If I have enoguht time I might expand this tiny project into a little library of mixins
+If I have enough time I might expand this tiny project into a little library of mixins
