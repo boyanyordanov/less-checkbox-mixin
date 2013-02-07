@@ -6,6 +6,7 @@ body{
 
 .wrapper{
     background: #fff;
+    border-radius: 5px;
     margin: 30px auto;
     width: 960px;
 }
@@ -17,8 +18,11 @@ body{
 
 .header{
     background: #27b4ff;
-    padding: 20px;
+    border-top-left-radius: 10px;
     box-shadow: 3px 7px 1px 3px #0072af;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
 }
 
 .header-logo{
@@ -34,18 +38,43 @@ body{
 */
 
 .main{
-    padding: 20px;
+    padding: 20px 20px 50px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
 }
 
+/* 
+    Demo form   
+*/
+
+.demo-fields{
+    border: none;
+}
+
+.demo-field{
+    margin-top: 10px;
+    
+    &:first-child{
+        margin-top: 0;
+    }
+}
 /*
     Footer
 */
 
 
 .footer{
+    border-top: 1px solid #e3e3e3;
     padding: 20px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-bottom-right-radius: 10px;
 }
 
 .footer-copyright{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
     margin: 0;
 }
