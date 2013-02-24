@@ -27,7 +27,7 @@
     position: absolute;
     top: -9999em;
       
-    &+.lch-label{
+    &+label{
         background: @background;
         color: @color;
         font-size: @fontSize;
@@ -41,12 +41,12 @@
         cursor: pointer;
     }   
     
-    &+.lch-label:hover{
+    &+label:hover{
         color: @hoverColor;
         background: @hoverBackground;
     }
     
-    &:checked + .lch-label{
+    &:checked + label{
         background: @activeBackground;
         color: @activeColor;
     }
